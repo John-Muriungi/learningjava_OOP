@@ -1,0 +1,9 @@
+An object is  a real world entity with a physical or conceptual existence
+        > they hold data(attributes) eg. name, age ,height
+        and can perform actions (methods) eat() walk()
+   they are reference data types
+
+   class is a blueprint of an object
+
+in creating classes in java we use PascalNamingConvention i.e.the first letter of  every name should be in   capital letters
+unlike in methods that use camelNamingConvention where every  first letter of every word is in caps  except for the first word

@@ -1,2 +1,2 @@
-# learningjava_OOP
-Learn object oriented programing with java
+# learning java_OOP
+Learn object-oriented programing with java

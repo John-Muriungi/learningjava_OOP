@@ -1,0 +1,102 @@
+An object is  a real world entity with a physical or conceptual existence
+        > they hold data(attributes) eg. name, age ,height
+        and can perform actions (methods) eat() walk()
+   they are reference data types
+
+   class is a blueprint of an object
+
+in creating classes in java we use PascalNamingConvention i.e.the first letter of  every name should be in   capital letters
+unlike in methods that use camelNamingConvention where every  first letter of every word is in caps  except for the first word
+
+constructors=> special method to initialize objects
+                you can pass arguments to a s=constructor and set up initial values
+                its automatically called when you create a new object
+
+overloaded constructors  => allow a class to have  multiple constructors  with
+different parameter list. they enable objects to be initialized in various ways(more like overloaded methods)
+
+you can create an array of java objects ...
+        the data type of the  objects arrays is the class name
+        e.g.
+                Car [] cars=new Car[3] for wsn empty array
+
+                Car[]cars1={
+                new Car("Bentley","Red"),
+                new Car("Ferrari","blue"),
+                new Car("Mercedes","black")
+                }; for anonymous objects
+
+                 Car[] cars={car1,car2,car3}; for instantiated objects
+
+Static key word =>makes a method belong to the class rather than to any other specific object
+                   commonly used for utility or shared resources
+                   to access a static variable it's best to get use the class instead of the object name
+                   good practice=>System.out.println(Friend.penfriends);
+                   not good=>System.out.println(friend1.penfriends);
+                   you don't need  this  key word when working with a static variable
+
+inheritance=> one class inherit=s the attributes and methods from another class
+        child<- parent; child class inherits traits of the parent
+        in order for a class inherit the all the attributes and methods use the extends key word  followed by the parent class
+        eg public cass Dog extends Animals
+        each child class can have it own methods and attributes
+    multi-level inheritance=>
+                        where a child inherits from the grandparents
+
+Super => it's a keyword that referees to the parents class(subclass<- superclass) used in constructors and methods
+        overriding
+        calls the parent constructor  to initialize attributes
+Method overriding =>
+                    when a subclass provides its own  implementation  of  a method that is already defined
+                    it allows for cod e reusability and gives specific implementation
+                    @Override annotation helps identify the method  has been override it's good practise for  developers
+
+.toString() method=>    inherited from  the object class.it is used to return a string representation of an object
+                        by default it returns  a hash code  as a unique identifier
+                        it can be used to return a string representation of an object
+                        it can be overridden  to provide meaningful details
+
+Abstraction => used to define abstract classes and methods
+            it's the process of  hiding  implementation  details  ands showing only esential  features
+            abstract classes CAN'T  be instantiated  directly
+            we make classes and methods abstract by using abstract keywords
+            they can contain 'abstract ' methods (which must be implemented) thus ensuring consistency among children class
+            can contain 'concrete' methods (which are inherited)
+          unlike abstract methods the concrete methods are defined and inherited within the abstract classes
+Interface => A blueprint for a class that specifies  a set  of abstract  methods
+               that implementing  classes MUST define.
+               It supports  multiple inheritance -like behaviour
+               ond major difference btn interfaces and classes is that you can implement more than one interface
+               eg: public class Fish implements Prey, Predator {
+                @Override
+                   public void flee(){
+                       System.out.println("The fish is Swimming away");
+                   }
+
+                   @Override
+                   public void hunt() {
+                       System.out.println("The fish is swimming towards its prey");
+                   }
+                    }
+Polymorphism    IT IS A GREEK WORD
+
+                "Poly "= many
+                "Morph"=shape
+                 objects can identify as other .objects can be  treated as objects od=f common superclass
+                can also be achieved using interfaces
+                i) dynamic polymorphism/Runtime polymorphism
+                    =>when the method that gets executed is decided at  runtime based on actual type of the object
+
+Getters and Setters =>
+                  they help protect  object data and add rules  for accessing  or modifying them.
+                  GETTERS= methods that make a field READABLE
+                  SETTERS = methods that make a field WRITEABLE
+                  achieved through declaring the  attributes of the class with a private access modifier
+                  for getters = getAtribuname
+                                eg getModel(){
+
+                                }
+                                void setColor(String color){
+                                    this.color=color;
+                                }
+                                if t]yoou dont want the  attribute to be writeable we use the  final keyword

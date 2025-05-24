@@ -11,17 +11,21 @@ public class Car {
 
     }
     String getModel(){
+
         return this.model;
     }
 
    String getColor() {
+
         return this.color;
     }
 
     String getPrice() {
+
         return"Sh."+this.price;
     }
     void setColor (String color){
+
         this.color=color;
     }
     void setPrice (int price){

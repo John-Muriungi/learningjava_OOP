@@ -92,11 +92,39 @@ Getters and Setters =>
                   GETTERS= methods that make a field READABLE
                   SETTERS = methods that make a field WRITEABLE
                   achieved through declaring the  attributes of the class with a private access modifier
-                  for getters = getAtribuname
+                  for getters = getAtributename
                                 eg getModel(){
 
                                 }
                                 void setColor(String color){
                                     this.color=color;
                                 }
-                                if t]yoou dont want the  attribute to be writeable we use the  final keyword
+                                if you don't want the  attribute to be writeable we use the  final keyword
+Aggregation => represents a "has-a" relationship between objects
+                one object contain another object as a part  of its structure , but the contained object/s can exist
+                 independently
+
+Composition =>represents a "part of" relationship between objects .
+                For example , an engine is "part of " a car
+                it allows complex objects to be constructed  from smaller objects
+Wrapper classes = they allow primitive values (int char double boolean) to be used  as objects .
+                    we "rap them inn an object"
+                    Generally, don't Wrap primitives unless you need an object
+                    it allows use of Collections and static utility
+                   Integer a =new Integer(123)
+                                     Double b = new Double(3.14)
+                                     Boolean d=new Boolean(true);
+                                     Character c=new Character ('%');
+
+                                     however the above method is a n old one
+                                     this is a new one;it's called auto boxing
+
+                                       Integer a =123
+                                       Double b =3.14
+                                       Boolean d=true
+                                       Character c='%'
+                                       String  e ="pizza"
+
+                                       unboxing
+
+

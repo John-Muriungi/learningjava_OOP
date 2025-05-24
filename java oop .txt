@@ -126,5 +126,14 @@ Wrapper classes = they allow primitive values (int char double boolean) to be us
                                        String  e ="pizza"
 
                                        unboxing
+                            //unboxing removing the primitive
+                                                int x=a;
+                                             char y=c;
 
+arrayList= a resiezable  array that stores objects (autoboxing)
+            Arrays are  fixed  in size , but ArrayList can change
 
+            vcreating array list
+                    ArrayList<type of  object> listName= new ArrayList<Integer>();
+                    type of object are : Integer,Double,Character, Boolean,String
+                     to use this ArrayList class we need to import the  class from jav.util.ArrayList

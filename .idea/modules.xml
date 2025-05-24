@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Abstraction in java/Abstraction in java.iml" filepath="$PROJECT_DIR$/Abstraction in java/Abstraction in java.iml" />
       <module fileurl="file://$PROJECT_DIR$/Array of objects/Array of objects.iml" filepath="$PROJECT_DIR$/Array of objects/Array of objects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ArrayList/ArrayList.iml" filepath="$PROJECT_DIR$/ArrayList/ArrayList.iml" />
       <module fileurl="file://$PROJECT_DIR$/Composition in java/Composition in java.iml" filepath="$PROJECT_DIR$/Composition in java/Composition in java.iml" />
       <module fileurl="file://$PROJECT_DIR$/Getters and Setters in java/Getters and Setters in java.iml" filepath="$PROJECT_DIR$/Getters and Setters in java/Getters and Setters in java.iml" />
       <module fileurl="file://$PROJECT_DIR$/Method overridding/Method overridding.iml" filepath="$PROJECT_DIR$/Method overridding/Method overridding.iml" />
@@ -13,6 +14,7 @@
       <module fileurl="file://$PROJECT_DIR$/Super keyword/Super keyword.iml" filepath="$PROJECT_DIR$/Super keyword/Super keyword.iml" />
       <module fileurl="file://$PROJECT_DIR$/Wrapper classes/Wrapper classes.iml" filepath="$PROJECT_DIR$/Wrapper classes/Wrapper classes.iml" />
       <module fileurl="file://$PROJECT_DIR$/aggregationin jaava/aggregationin jaava.iml" filepath="$PROJECT_DIR$/aggregationin jaava/aggregationin jaava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ArrayList/arraylist exercise/arraylist exercise.iml" filepath="$PROJECT_DIR$/ArrayList/arraylist exercise/arraylist exercise.iml" />
       <module fileurl="file://$PROJECT_DIR$/constructorsinjava/constructorsinjava.iml" filepath="$PROJECT_DIR$/constructorsinjava/constructorsinjava.iml" />
       <module fileurl="file://$PROJECT_DIR$/inheritance/inheritance.iml" filepath="$PROJECT_DIR$/inheritance/inheritance.iml" />
       <module fileurl="file://$PROJECT_DIR$/interfaces in java/interfaces in java.iml" filepath="$PROJECT_DIR$/interfaces in java/interfaces in java.iml" />

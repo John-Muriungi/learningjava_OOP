@@ -130,10 +130,46 @@ Wrapper classes = they allow primitive values (int char double boolean) to be us
                                                 int x=a;
                                              char y=c;
 
-arrayList= a resiezable  array that stores objects (autoboxing)
+arrayList= a resizable  array that stores objects (autoboxing)
             Arrays are  fixed  in size , but ArrayList can change
 
-            vcreating array list
+            creating array list
                     ArrayList<type of  object> listName= new ArrayList<Integer>();
                     type of object are : Integer,Double,Character, Boolean,String
                      to use this ArrayList class we need to import the  class from jav.util.ArrayList
+
+Exception = An event that  interrupts the normal flow  of program (Dividing by zero , file not found, mismatch input type)
+            Surround any dangerous  code with try{} block try{}catch{} finally{}
+            evry try block has a catch block
+            try{
+
+            }
+            catch(Typeofexception exception name...it can be anything even just a single character){
+
+            }
+            the catch-all exception  is just like  net it checks for all exceptions
+              catch (Exception e) {//catch all exception just as the else state in if statement
+                        System.out.println("Something went wrong");
+                    }
+            finally{} its is mostly used for clean up. Will always execute wether there is an exception or not
+            try with resources helps cloe your reources .. like scanner
+             try (Scanner scanner = new Scanner(System.in)){}
+write files =>
+             there are four popular options
+                i. FileWriter= good for small or medium-sized  text files
+                FileWriter writer=new FileWriter("test.txt");
+                ii. BufferedWriter is better performance for large amount of text
+                iii. PrintWriter = best for structured data, like reports or logs
+                iv. FileOutStream = best for binary files(e.g, images audio files).
+reading files =>
+                there are 3 popular options for reading file
+
+                BufferReader + FileReader: best  for reading text files  line-by-line
+                FileInputStream: best for binary files(E.g. images,audio files)
+                RandomAccessFile: bet for read/Write specific portions of a large file.
+
+
+
+
+
+

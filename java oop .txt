@@ -183,4 +183,14 @@ date and time in java=>
 Anonymous class => class that doesn't have a name. Cannot  be reused
                     add custom behaviour without having to create a new class
                     Often used for one time uses(TimerTask,Runnable, callbacks)
+Timer  = Class that schedules tasks at specific or periodically
+        It's useful for sending notifications, scheduled  updates, repetitive actions
+Timer task=> Represents the task that will be executed by the timer
+                You will extend the TimerTask class to define your task
+                create a subclass of timerTask and  @Override run()
+
+Generics =>A concept where you write class,interface,or method that is compatible with different data types.
+            <T> type of parameter(placeholder that gets replaced with a real type)
+            <String> type arguments (specifies the type)
+
 

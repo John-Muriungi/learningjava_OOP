@@ -169,7 +169,18 @@ reading files =>
                 RandomAccessFile: bet for read/Write specific portions of a large file.
 
 
+date and time in java=>
+                    working with localDate, Localtime, LocalDateTime,UTC timestamp
+                    LocalDate date=LocalDate.now()// current date
+                     LocalTime time=LocalTime.now()// current time
+                     LocalDateTime dateTime= LocalDateTime.now//both date and time
+                     //utc timestamp
+                     Instant instant =Instant.now();
+                custom format in java:check the link bellow
 
-
-
+                https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html
+              DateTimeFormatter formater=DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss");
+Anonymous class => class that doesn't have a name. Cannot  be reused
+                    add custom behaviour without having to create a new class
+                    Often used for one time uses(TimerTask,Runnable, callbacks)
 

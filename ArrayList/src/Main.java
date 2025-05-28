@@ -22,14 +22,14 @@ public class Main {
         System.out.println(fruits);
 
 //        replacing an element
-        fruits.set(0,"Pineaple");
+        fruits.set(0,"Pineapple");
         System.out.println(fruits);
 
 //        getting specific element
         String myFruit=fruits.get(1);
         System.out.println(myFruit);
 
-//        gettoing total number of elements in your arrayList
+//        getting total number of elements in your arrayList
         int length=fruits.size();
         System.out.println(length);
 

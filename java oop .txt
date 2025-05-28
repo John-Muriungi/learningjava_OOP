@@ -140,7 +140,7 @@ arrayList= a resizable  array that stores objects (autoboxing)
 
 Exception = An event that  interrupts the normal flow  of program (Dividing by zero , file not found, mismatch input type)
             Surround any dangerous  code with try{} block try{}catch{} finally{}
-            evry try block has a catch block
+            every try block has a catch block
             try{
 
             }
@@ -192,5 +192,25 @@ Timer task=> Represents the task that will be executed by the timer
 Generics =>A concept where you write class,interface,or method that is compatible with different data types.
             <T> type of parameter(placeholder that gets replaced with a real type)
             <String> type arguments (specifies the type)
+            use case: in ArrayList<String> fruits=new ArrayList<>();
+
+HashMap= data structure that stores key-value pairs
+            Keys are unique, but values can be duplicated.Does not maintain any order but in  memory efficient
+            HashMap<Key, Value>
+            when creating hashMap we have to create  type parameters
+Enums =(Enumerations) A special kind of class that represents a fixed set of constants
+        they improve  code readability, and they are easy to maintain.
+        more efficient with switches when comparing Strings
+
+Threading => Allows a program to run multiple tasks simultaneously
+             It helps improve performance with time consuming operations
+             (File I/O, network communications,or any background tasks)
+
+             creating a thread
+             option 1: Extend the thread class(this is simpler)
+             option 2: Implement the runnable interface(This is  better)
+
+
+
 
 

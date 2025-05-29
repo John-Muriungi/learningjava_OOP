@@ -5,7 +5,7 @@ public class Main {
         Scanner scanner=new Scanner(System.in);
         MyRunnable myRunnable=new MyRunnable();
         Thread thread=new Thread(myRunnable);
-        thread.setDaemon(true);// helps the
+        thread.setDaemon(true);// helps end the other threads when main thread is over
         thread.start();
 
 

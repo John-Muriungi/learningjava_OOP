@@ -210,7 +210,9 @@ Threading => Allows a program to run multiple tasks simultaneously
              option 1: Extend the thread class(this is simpler)
              option 2: Implement the runnable interface(This is  better)
 
-
+Multithreading= Enables a program to run multiple threads concurrently
+                (thread=> set of instruction that can run independently)
+                Useful for background tasks or time-consuming operations
 
 
 

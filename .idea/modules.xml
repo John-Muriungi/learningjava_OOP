@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Abstraction in java/Abstraction in java.iml" filepath="$PROJECT_DIR$/Abstraction in java/Abstraction in java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Alarm clock/Alarm clock.iml" filepath="$PROJECT_DIR$/Alarm clock/Alarm clock.iml" />
       <module fileurl="file://$PROJECT_DIR$/Anonymous Class/Anonymous Class.iml" filepath="$PROJECT_DIR$/Anonymous Class/Anonymous Class.iml" />
       <module fileurl="file://$PROJECT_DIR$/Array of objects/Array of objects.iml" filepath="$PROJECT_DIR$/Array of objects/Array of objects.iml" />
       <module fileurl="file://$PROJECT_DIR$/ArrayList/ArrayList.iml" filepath="$PROJECT_DIR$/ArrayList/ArrayList.iml" />
@@ -15,6 +16,7 @@
       <module fileurl="file://$PROJECT_DIR$/Getters and Setters in java/Getters and Setters in java.iml" filepath="$PROJECT_DIR$/Getters and Setters in java/Getters and Setters in java.iml" />
       <module fileurl="file://$PROJECT_DIR$/HashMap/HashMap.iml" filepath="$PROJECT_DIR$/HashMap/HashMap.iml" />
       <module fileurl="file://$PROJECT_DIR$/Method overridding/Method overridding.iml" filepath="$PROJECT_DIR$/Method overridding/Method overridding.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Multithreading in java/Multithreading in java.iml" filepath="$PROJECT_DIR$/Multithreading in java/Multithreading in java.iml" />
       <module fileurl="file://$PROJECT_DIR$/Polymorphism/Polymorphism.iml" filepath="$PROJECT_DIR$/Polymorphism/Polymorphism.iml" />
       <module fileurl="file://$PROJECT_DIR$/Reading file using java/Reading file using java.iml" filepath="$PROJECT_DIR$/Reading file using java/Reading file using java.iml" />
       <module fileurl="file://$PROJECT_DIR$/Polymorphism/Runtime polymorphism/Runtime polymorphism.iml" filepath="$PROJECT_DIR$/Polymorphism/Runtime polymorphism/Runtime polymorphism.iml" />
